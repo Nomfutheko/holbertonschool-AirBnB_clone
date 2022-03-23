@@ -1,10 +1,4 @@
-/*
-* 3-argument.c - Modulus of complex
-* Author: Rodrigo Zárate Algecira
-* Date: July 30, 2021
-*/
-
-#include "main.h"
+#include "holberton.h"
 #include <math.h>
 
 /**
