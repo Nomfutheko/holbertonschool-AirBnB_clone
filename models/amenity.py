@@ -1,20 +1,20 @@
 #!/usr/bin/python3
-from models.base_model import BaseModel
-'''
-This is the 'amenity' module.
+"""
+Amenity class
 
-amenity contains the class 'Amenity', a sub-class of BaseModel.
-'''
+
+"""
+from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    '''This is the 'Amenity' class.
-
-    The class contains one public attribute, 'name'.
-    '''
-    name = ''
+    """
+    Creating a class named Amenity that inherits from BaseModel
+    """
+    name = ""
 
     def __init__(self, *args, **kwargs):
-        '''This is the initialization method.
-        '''
-        super().__init__(*args, **kwargs)
+        """
+        Initializing the Amenity class and passing arguments
+        """
+        super().__init__(**kwargs)

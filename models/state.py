@@ -1,20 +1,20 @@
 #!/usr/bin/python3
-from models.base_model import BaseModel
-'''
-This is the 'state' module.
+"""
+Review class
 
-state contains the 'State' class, a sub-class of BaseModel.
-'''
+
+"""
+from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    '''This is the 'State' class.
-
-    State contains one public attribute, 'name'.
-    '''
-    name = ''
+    """
+    Creating a state class that inherits from BaseModel
+    """
+    name = ""
 
     def __init__(self, *args, **kwargs):
-        '''This is the initialization function.
-        '''
-        super().__init__(*args, **kwargs)
+        """
+        Intializing the state and passing args
+        """
+        super().__init__(**kwargs)
