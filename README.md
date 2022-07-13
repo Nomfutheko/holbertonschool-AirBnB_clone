@@ -118,17 +118,6 @@ $
 # Contact Information
 Please feel free to contact us regarding any matter (specially about mistakes, recomendations and gramar errors)
 
-<p align="center">
-Ernest Mgqina -
-<a href="https://github.com/Spha98">
-</a>
-</p>
 
-
-
-<p align="center">
-Danisile Jiyane -
-<a href="https://github.com/Danisile">
-</a>
 
 </p>
